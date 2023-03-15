@@ -29,3 +29,12 @@
 #     Hello, Jenna Talia. We've informed the resident that you're here to rob the place.
 
 # TODO write your code here
+
+fname = input("First Name: ")
+lname = input("Last Name: ")
+reason = input("Why They're Here: ")
+
+def script(fname, lname, reason):
+    print("Hello, " + fname + " " + lname + ". We've informed the resident that you're here to " + reason + ".")
+
+script(fname, lname, reason)

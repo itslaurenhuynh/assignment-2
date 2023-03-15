@@ -23,3 +23,15 @@
 #   Output: You lose! I was thinking of 4.
 
 # TODO write your code here
+import random
+
+user = int(input("Between 1 and 5, what number do you think the computer chose? "))
+computer = random.randint(1, 5)
+
+def number(user):
+    if user == computer:
+        print("You win!")
+    else: 
+        print("You lose! I was thinking of " + str(computer) + ".")
+
+number(user)
